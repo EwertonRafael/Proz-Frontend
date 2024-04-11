@@ -4,13 +4,8 @@ header {
 
 main {
   background-image: linear-gradient(to right, #4f823053, #306ba771);
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: center;
 }
 footer {
   background-image: linear-gradient(to right, #73bb3f, #347bba);
-  color: #fff;
   text-align: center;
 }
