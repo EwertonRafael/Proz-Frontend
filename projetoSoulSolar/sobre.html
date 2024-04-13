@@ -1,167 +1,279 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <title>Acesso Universal à Energia</title>
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">Soul Solar</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="./sobre.html">Sobre</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./inovacoes.html">Inovações</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./projetos.html">Serviços/Projetos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./faleConosco.html">Fale Conosco</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <h1>Sobre nós</h1>
-        <img src="./assets/img/sobre/func.jpg" alt="" style="max-width: 800px;"/>
-        <h2>Missão</h2>
-        <p>
-          Garantir acesso à energia barata, confiável, sustentável e renovável para todos, contribuindo para um futuro mais limpo e ecologicamente responsável. Atender nossos clientes de forma organizada e dinâmica, promovendo soluções em toda a cadeia logística, executando operações programadas e com resultados positivos na armazenagem e manuseio de cargas.
-        </p>
-        <h2>Visão</h2>
-        <p>
-          Ser a melhor opção de logística para o mercado no país, sempre combinando agilidade, flexibilidade, qualidade e a garantia da satisfação de nossos clientes. Tornar-se a referência global em geração de energia sustentável, promovendo o uso responsável dos recursos naturais.
 
-        </p>
-        <h2>Valores</h2>
-        <p>
-          Comprometimento, melhoria contínua, inovação, integridade, ética, transparência, eficácia, respeito ao meio ambiente, valorização e capacitação do elemento humano, com foco na preservação ambiental e no bem-estar das comunidades.
-        </p>
-      </section>
-    </main>
-    <!-- <p>© 2024 PROJETO PROZ - Objetivo de Desenvolvimento Sustentável.</p> -->
-    <footer class="py-5">
-      <div class="row">
-        <div class="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="./sobre.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <title>Soul Solar</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">Soul Solar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./sobre.html">Sobre</a>
             </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+            <li class="nav-item">
+              <a class="nav-link" href="./inovacoes.html">Inovações</a>
             </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+            <li class="nav-item">
+              <a class="nav-link" href="./projetos.html">Serviços/Projetos</a>
             </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+            <li class="nav-item">
+              <a class="nav-link" href="./faleConosco.html">Fale Conosco</a>
             </li>
           </ul>
-        </div>
-
-        <div class="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-body-secondary">About</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-body-secondary">About</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-md-5 offset-md-1 mb-3">
-          <form>
-            <h5>Receba informações</h5>
-            <p>Receba informaçoes atualizadas direto do seu email. cadastre aqui abaixo.</p>
-            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-              <label for="newsletter1" class="visually-hidden"
-                >Email address</label
-              >
-              <input
-                id="newsletter1"
-                type="text"
-                class="form-control"
-                placeholder="Email address"
-              />
-              <button class="btn btn-primary" type="button">Subscribe</button>
-            </div>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
           </form>
         </div>
       </div>
-    </footer>
-  </body>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <div>
+
+      <img src ="./assets/img/sobre/foto_sobre.png" alt="folder soul solar" id="folder_sobre" />
+      <h1>Conheça mais sobre a história da Soul Solar</h1>
+    </div>
+        <ul>
+          <li class="titulo_sobre">O Início </li>
+
+          A “Soul Solar” nasceu de uma visão audaciosa: tornar a energia solar acessível a todos, independentemente de
+          sua localização ou condição socioeconômica. Fundada em 2010 por um grupo de entusiastas da sustentabilidade, a
+          empresa começou como um pequeno projeto de pesquisa em um Bootcamp.
+
+          <li class="titulo_sobre">Os Primeiros Desafios </li>
+
+          Os fundadores enfrentaram desafios significativos. A tecnologia solar ainda era cara, e muitas comunidades
+          rurais e remotas estavam à margem do acesso à eletricidade. No entanto, a paixão e a determinação da equipe da
+          “Soul Solar” eram inabaláveis.
+
+          <li class="titulo_sobre">O Crescimento </li>
+
+          À medida que a conscientização sobre energia limpa aumentava, a “Soul Solar” expandiu suas operações. Ela se
+          tornou pioneira em projetos de microgeração distribuída, instalando painéis solares em escolas, postos de
+          saúde e casas em áreas isoladas. Cada instalação era uma vitória, trazendo luz e esperança a comunidades que
+          antes viviam na escuridão
+
+          <li class="titulo_sobre">Parcerias e Impacto Social </li>
+
+          A “Soul Solar” estabeleceu parcerias com ONGs, governos locais e empresas comprometidas com a
+          sustentabilidade. Juntos, eles criaram programas de treinamento para capacitar moradores locais a manter e
+          operar os sistemas solares. A empresa também lançou campanhas de conscientização, ensinando crianças sobre a
+          importância da energia limpa e incentivando práticas sustentáveis.
+
+          <li class="titulo_sobre">O Futuro </li>
+
+          Hoje, a “Soul Solar” é reconhecida em todo o Brasil. Seus projetos abrangem desde pequenas vilas no interior
+          do Brasil e comunidades remotas. A empresa continua a inovar, explorando baterias de armazenamento, sistemas
+          híbridos e tecnologias emergentes.
+
+          A visão da “Soul Solar” permanece a mesma: energia limpa para todos, com amor e compromisso. Eles acreditam
+          que cada painel solar instalado é uma semente de esperança, alimentando um futuro mais brilhante para o nosso
+          planeta.
+        </ul>
+      
+      <div class="sobre_cultura">
+        <h3>Equipe e Cultura Organizacional: </h3>
+        <p>A Soul Solar valoriza uma cultura organizacional sólida e alinhada com seus princípios e valores. Aqui estão
+          alguns aspectos da equipe e da cultura da empresa:
+          Valores e Ética:
+
+          A “Soul Solar” acredita na integridade, transparência e responsabilidade.
+
+          Seus valores incluem o compromisso com a sustentabilidade, o respeito pelas pessoas e a busca contínua pela
+          excelência.
+
+          Equipe Multidisciplinar:
+
+          A equipe da Soul Solar é diversificada, composta por engenheiros, técnicos, especialistas em energia,
+          profissionais de marketing e administradores.
+
+          Essa diversidade permite uma abordagem holística para resolver desafios relacionados à energia solar.
+
+          Inovação e Paixão:
+
+          Os colaboradores da “Soul Solar” são apaixonados por energia limpa e sustentabilidade.
+
+          Eles buscam constantemente inovações tecnológicas e soluções criativas para promover a missão da empresa.
+
+          Código de Ética e Conduta:
+
+          A empresa possui um Código de Ética e Conduta que orienta o comportamento de todos os funcionários.
+
+          Esse código reforça a importância da integridade, do respeito e da legalidade.
+
+          Cultura de Integridade:
+
+          A “Soul Solar” instituiu um Programa de Integridade em 2020, com mecanismos para detectar e sanar desvios,
+          fraudes
+          e atos ilícitos.
+
+          Esse programa reforça a cultura ética e a responsabilidade de todos os colaboradores.
+
+          Em resumo, a “Soul Solar” é uma empresa comprometida com a energia sustentável, com uma equipe dedicada e uma
+          cultura que valoriza a integridade e o impacto positivo no mundo.
+        </p>
+      </div>
+      <div class="missao">
+      <h2>Missão</h2>
+      <img src="assets/img/sobre/missao_sobre.png" alt="logo missão da empresa" width="25%">
+      <p>
+        O intuito da Soul Solar é promover soluções tecnológicas inovadoras para facilitar e otimizar
+        a gestão de negócios que alavancam seu crescimento sustentável e competitividade no mercado.
+        A missão reflete o compromisso da Soul Solar em oferecer soluções que impulsionem o desenvolvimento empresarial
+        e a sustentabilidade.
+        Assim, pretende garantir acesso à energia barata, confiável, sustentável e renovável para todos, contribuindo
+        para um futuro
+        mais limpo e ecologicamente responsável. Atendendo os nossos clientes de forma organizada e dinâmica, promovendo
+        soluções em toda a cadeia logística, executando operações programadas e com resultados positivos na armazenagem
+        e manuseio de cargas.
+      </p>
+    </div>
+    <div class="visao">
+      <h2>Visão</h2>
+      <img src="assets/img/sobre/visao_sobre.png" alt="logo sobre visao da empresa" width="25%">
+      <p>
+        A Soul Solar quer ser reconhecida globalmente até 2030 como líder no desenvolvimento de soluções tecnológicas
+        inovadoras
+        para o segmento de PMEs, transformando o cenário de gestão empresarial com produtos acessíveis e de alta
+        qualidade.
+        A visão inspira a equipe a trabalhar em direção a um futuro onde a Soul Soul seja referência em tecnologia e
+        acessibilidade,
+        com o foco em ser a melhor opção de logística para o mercado no país, sempre combinando agilidade,
+        flexibilidade, qualidade e
+        a garantia da satisfação de nossos clientes. O intuito principal é tornar-se
+        referência global em geração de energia sustentável,
+        promovendo o uso responsável dos recursos naturais.
+
+      </p>
+    </div>
+    <div class="valores">
+      <h2>Valores</h2>
+      <img src="assets/img/sobre/valores_sobre.png" alt="logo sobre valores da empresa" width="25%">
+      <p>
+        A Soul Solar valoriza e respeita os clientes e colaboradores, colocando-os no centro de suas ações,
+        cultivando relações de confiança.
+        Nossa empresa foca em empreendedorismo e inovação, buscando constantemente por soluções inovadoras que
+        impulsionam o seu crescimento perante o mercado.
+        Todas as ações respeitam o Meio Ambiente, pois o nosso compromisso é crescer, disseminar a energia limpa e a preservação do planeta.
+        Desse modo, agimos sempre da forma correta, com ética e responsabilidade, guiando cada decisão tomada.
+        Nosso comprometimento é com a melhoria contínua, inovação, integridade, ética, transparência, eficácia, respeito ao meio
+        ambiente, valorização e capacitação do elemento humano, com foco na preservação ambiental e no bem-estar das
+        comunidades.
+      </p>
+    </div>
+    </section>
+    <section class="informacoes_sobre">
+      <div>
+        <h2>Energia Verde</h2>
+        <p>O panorama energético global mudará mais nos próximos 10 anos do que nos cem anteriores. À medida que o setor energético mundial se afasta dos 
+          combustíveis fósseis para fontes de energia renováveis, as empresas industriais são desafiadas a abordar esta transição de formas transformadoras.
+          A Energia Renovável aproveita os recursos mais abundantes da Terra, a força do vento, o calor do sol e a força da água. Essa ação fornece elétrons verdes 
+          para alimentar as maiores economias do mundo e as comunidades mais remotas.</p>
+          <video src="assets/img/sobre/video_informacoes_sobre.mp4" autoplay muted loop class="sobre__video" width="30%"></video>
+      </div>
+
+    </section>
+  </main>
+  
+  <!-- <p>© 2024 PROJETO PROZ - Objetivo de Desenvolvimento Sustentável.</p> -->
+  <footer class="py-5">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5>Receba informações</h5>
+          <p>Receba informaçoes atualizadas direto do seu email. <br>Cadastre-se aqui:</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">E-mail </label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address" />
+            <button class="btn btn-primary" type="button">Increva-se</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </footer>
+  <p class="copyright">Copyright &copy; Soul Solar <span class="date"></span>Todos os Direitos Reservados</p>
+</body>
+
 </html>
