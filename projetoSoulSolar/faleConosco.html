@@ -10,6 +10,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./assets/stylesPersonalizado/faleConosco.css">
     <title>Soul Solar</title>
   </head>
   <body>
@@ -60,52 +61,57 @@
     </header>
     <main>
       <img src="./assets/img/logo/logo2.png" alt="logo da empresa">
-      <h3>Formulário de Contato</h3>
-      <form action="submit">
+      <form id="formulario" action="submit">
         <fieldset>
-          <legend>Informações Pessoais</legend>
+          <legend>Formulário de Contato</legend>
           <div>
             <label>Nome: </label>
             <input type="text" name="nome" id="nome" />
           </div>
-          <div>
-            <label>Sobrenome: </label>
-            <input type="text" name="sobrenome" id="spbrenome" />
-          </div>
-          <div>
-            <label>Email: </label>
-            <input type="email" name="email" id="email" />
-          </div>
-          <div>
-            <label for="">Já tem experiência: </label>
-            <label for="">
-              <input type="radio" name="nao" id="nao" checked />não
-            </label>
-            <label for=""> <input type="radio" name="sim" id="im" />sim </label>
-          </div>
-          <div>
-            <label>Envie seu Currículo: </label>
-            <input type="file" />
-          </div>
-          <div>
-            <label>Telefone: </label>
-            <input
-              type="tel"
-              name="telefone"
-              id="telefone"
-              inputmode="numeric"
-            />
-          </div>
+          <br>
+            <div>
+              <label>Sobrenome: </label>
+              <input type="text" name="sobrenome" id="spbrenome" />
+            </div>
+            <br>
+            <div>
+              <label>Email: </label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <br>
+            <div>
+              <label for="">Já tem experiência: </label>
+              <label for="">
+                <input type="radio" name="nao" id="nao" checked />não
+              </label>
+              <label for=""> <input type="radio" name="sim" id="im" />sim </label>
+            </div>
+            <br>
+            <div>
+              <label>Envie seu Currículo: </label>
+              <input type="file" />
+            </div>
+            <br>
+            <div>
+              <label>Telefone: </label>
+              <input
+                type="tel"
+                name="telefone"
+                id="telefone"
+                inputmode="numeric"
+              />
+            </div>
+            <br>
+          <button type="submit">Enviar</button>
         </fieldset>
-        <button type="submit">Enviar</button>
       </form>
       <br />
       <section>
         <div>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.3751580533826!2d-34.87365837407947!3d-8.063161680571886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18a48ed72541%3A0xf5636ba795e00cd4!2sPra%C3%A7a%20Bar%C3%A3o%20do%20Rio%20Branco%20-%20Recife%2C%20PE%2C%2050020-360!5e0!3m2!1spt-BR!2sbr!4v1710820254463!5m2!1spt-BR!2sbr"
-            width="600"
-            height="450"
+            width="450"
+            height="300"
             style="border: 0"
             allowfullscreen=""
             loading="lazy"
