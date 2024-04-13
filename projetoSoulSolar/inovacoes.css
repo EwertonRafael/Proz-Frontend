@@ -1,0 +1,21 @@
+main{
+    display: flex;
+    align-items: center;
+
+}
+ h1{
+    color: aquamarine;
+    text-align: center;
+}
+.custom-container {
+    background-color: aliceblue;
+    border: 4px solid #000; /* Adiciona uma borda sólida de 1px com cor cinza */
+    padding: 20px; /* Adiciona um preenchimento interno de 20px para separar o conteúdo da borda */
+    margin: 10px;     
+  }
+#texto3 {
+    text-align: right;
+  }
+  
+
+  
