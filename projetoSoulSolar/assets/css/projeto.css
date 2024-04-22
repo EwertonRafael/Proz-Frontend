@@ -1,0 +1,11 @@
+.proj {
+  max-width: 80%;
+  text-align: left;
+}
+
+.proj-sec{
+  display: flex;
+  padding-bottom: 40px;
+  align-items: center;
+  gap: 20px;
+}

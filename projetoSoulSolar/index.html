@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="./assets/stylesPersonalizado/index.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -22,7 +23,8 @@
     <header>
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">Soul Solar</a>
+          <img src="./assets/img/logo/logoSoulSolar.jpg" id="logo" alt="Logo">
+          <a class="navbar-brand" href="./index.html">Home</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -49,17 +51,6 @@
                 <a class="nav-link" href="./faleConosco.html">Fale Conosco</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
           </div>
         </div>
       </nav>
@@ -110,22 +101,27 @@
         </button>
       </div>
       <!-- final do carrossel -->
+      <div>
+        <p id="first-p">
+          <i>Ser líder em soluções de energia solar acessíveis, transformando vidas e comunidades para um futuro mais sustentável.Cada comunidade tem suas próprias necessidades e desafios únicos. Por isso, trabalhamos em estreita colaboração com as autoridades locais e líderes comunitários para desenvolver soluções personalizadas que atendam às necessidades energéticas específicas de cada área.</i>
+        </p>
+      </div>
       <section>
-        <div class="container" id="conteudo1">
-          <img class="imgSize" src="./assets/img/index/conteudo1.jpg" alt="..."/>
+        <div class="text-right">
+          <img class="imgSize" src="./assets/img/index/fazendaDePlacas.jpg" alt="Fazenda de placas Solares"/>
           <div class="conteudo_margin">
             <h5>Iluminando o Futuro com Sustentabilidade</h5>
             <p>
               Somos uma empresa dedicada a promover a energia solar como uma solução acessível e sustentável para as necessidades energéticas de residências, empresas e comunidades. Nosso compromisso vai além da venda de placas solares; estamos empenhados em oferecer soluções inovadoras que promovam a sustentabilidade e ajudem a construir um futuro mais limpo e brilhante para todos.
             </p>
             <p>
-              <a href="#"><small>Saiba mais <img class="icon" src="./assets/img/index/avanco-rapido.png"</small></a>
+              <a href="#"><small>Saiba mais <img class="icon" src="./assets/img/index/avanco-rapido.png"></small></a>
             </p>
           </div>      
         </div>
 
-        <div class="container" id="conteudo2">
-          <img class="imgSize" src="./assets/img/index/placaEmBaixaRenda.jpg" alt="..."/>
+        <div class="text-left">
+          <img class="imgSize" src="./assets/img/index/placaEmBaixaRenda.jpg" alt="Placas solares em residências de baixa renda"/>
           <div class="conteudo_margin">
             <h5>Incentivos para Baixa Renda</h5>
             <p>
@@ -136,15 +132,50 @@
             </p>
           </div>      
         </div>
+
+        <div class="text-right">
+          <img class="imgSize" src="./assets/img/index/placas.jpg" alt="Placa solar montado no telhado da casa"/>
+          <div class="conteudo_margin">
+            <h5>Placas Solares Eficientes e Confiáveis</h5>
+            <p>
+              Nossas placas solares são fabricadas com os mais altos padrões de qualidade e eficiência. Com tecnologia avançada e materiais duráveis, garantimos um desempenho excepcional e uma vida útil longa para nossos produtos. Além disso, oferecemos serviços de instalação profissional e suporte técnico contínuo para garantir a máxima satisfação de nossos clientes.
+            </p>
+            <p>
+              <a href="#"> <small> Saiba mais <img class="icon" src="./assets/img/index/avanco-rapido.png"></small></a>
+               
+            </p>
+          </div>      
+        </div>
+
+        <div class="text-left">
+          <img class="imgSize" src="./assets/img/index/precoParceria.png" alt="Foto ilustrativa de um aperto de mão"/>
+          <div class="conteudo_margin">
+            <h5>Preços Competitivos e Parcerias Estratégicas</h5>
+            <p>
+              Na <i>Soul Solar</i>, entendemos a importância de oferecer soluções solares acessíveis sem comprometer a qualidade. Por isso, trabalhamos arduamente para garantir preços competitivos em todos os nossos produtos e serviços. Nossas equipes dedicadas negociam diretamente com fornecedores e fabricantes para obter os melhores preços em placas solares, inversores e componentes relacionados, garantindo assim que possamos repassar essas economias aos nossos clientes. Além disso, estabelecemos parcerias estratégicas com instituições financeiras e organizações governamentais para oferecer opções de financiamento flexíveis e programas de incentivo
+            </p>
+            <p>
+              <a href="#"><small>Saiba mais <img class="icon" src="./assets/img/index/avanco-rapido.png" alt=""></small></a>
+            </p>
+          </div>      
+        </div>
       </section>
     </main>
-    <footer class="py-5">
+  <footer class="py-5">
+    <section class="sec-footer">
+      <div>
+        <h2>Quer ser nosso parceiro?</h2>
+        <h3>Envie um formulário de contato</h3>
+      </div>
+      <div>
+        <a href="./faleConosco.html">Contate nos</a>
+      </div>
+    </section>
       <div class="row">
         <div class="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
           <ul class="nav flex-column">
             <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+              <a href="#" class="nav-link p-0 text-body-secondary">Missão</a>
             </li>
             <li class="nav-item mb-2">
               <a href="#" class="nav-link p-0 text-body-secondary">Sobre</a>
@@ -162,7 +193,6 @@
         </div>
 
         <div class="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
           <ul class="nav flex-column">
             <li class="nav-item mb-2">
               <a href="#" class="nav-link p-0 text-body-secondary">Missão</a>
@@ -179,6 +209,15 @@
             <li class="nav-item mb-2">
               <a href="#" class="nav-link p-0 text-body-secondary">Análise de Mercado</a>
             </li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-2 mb-3">
+          <ul class="list-icon">
+            <li><a href="#">Facebook <span class="fab fa-facebook"></span></a></li>
+            <li><a href="#">Isntagram <span class="fab fa-instagram"></span></a></li>
+            <li><a href="#">Linkedin <span class="fab fa-linkedin"></span></a></li>
+            <li><a href="#">Git Hub <span class="fab fa-github"></span></a></li>
           </ul>
         </div>
 
@@ -205,7 +244,10 @@
           </form>
         </div>
       </div>
-    </footer>
+      <div>
+        <h6><i>SOUL SOLAR </i><small>@copyright</small></h6>
+      </div>
+    </footer>  
 
     <!-- incluir o js do bootstrap -->
     <script

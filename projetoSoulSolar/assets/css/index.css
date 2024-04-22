@@ -1,17 +1,22 @@
-main{
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; 
 }
 
-main #carouselExampleFade{
+main #carouselExampleFade {
   display: flex;
   margin: 1.5rem;
   max-width: 640px;
 }
 
-body main section #conteudo1{
+#first-p {
+  margin: auto 20%;
+  font-size: 24px;
+  text-shadow: 1px -1.3px 0 #000;
+}
+
+body main section .text-right {
   display: flex;
   align-items: center;
   text-align: left;
@@ -20,7 +25,7 @@ body main section #conteudo1{
   border-radius: 25px 0 0 25px;
 }
 
-body main section #conteudo2{
+body main section .text-left {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -30,27 +35,28 @@ body main section #conteudo2{
   border-radius: 0 25px 25px 0;
 }
 
-.imgSize{
+.imgSize {
   margin: 1.5rem;
   width: 350px;
 }
-.conteudo_margin{
+
+.conteudo_margin {
   margin: 40px;
 }
+
 p a {
   text-decoration: none;
 }
 
 @media (max-width: 770px) {
-  #conteudo1{
+  main section .text-right {
     display: flex;
     flex-direction: column;
   }
-}
-
-@media(max-width: 770px){
-  #conteudo2{
+  main section .text-left {
     display: flex;
     flex-direction: column-reverse;
   }
 }
+
+
