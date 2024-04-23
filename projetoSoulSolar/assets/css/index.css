@@ -1,0 +1,62 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main #carouselExampleFade {
+  display: flex;
+  margin: 1.5rem;
+  max-width: 640px;
+}
+
+#first-p {
+  margin: auto 20%;
+  font-size: 24px;
+  text-shadow: 1px -1.3px 0 #000;
+}
+
+body main section .text-right {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin: 1.5rem;
+  background-image: linear-gradient(to left, #4f823053, #306ba771);
+  border-radius: 25px 0 0 25px;
+}
+
+body main section .text-left {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  text-align: right;
+  margin: 1.5rem;
+  background-image: linear-gradient(to right, #4f823053, #306ba771);
+  border-radius: 0 25px 25px 0;
+}
+
+.imgSize {
+  margin: 1.5rem;
+  width: 350px;
+}
+
+.conteudo_margin {
+  margin: 40px;
+}
+
+p a {
+  text-decoration: none;
+}
+
+@media (max-width: 770px) {
+  main section .text-right {
+    display: flex;
+    flex-direction: column;
+  }
+  main section .text-left {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+

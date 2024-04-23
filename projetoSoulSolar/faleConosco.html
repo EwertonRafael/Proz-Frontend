@@ -10,6 +10,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./assets/css/faleConosco.css">
     <title>Soul Solar</title>
   </head>
   <body>
@@ -60,62 +61,113 @@
     </header>
     <main>
       <img src="./assets/img/logo/logo2.png" alt="logo da empresa">
-      <h3>Formulário de Contato</h3>
-      <form action="submit">
-        <fieldset>
-          <legend>Informações Pessoais</legend>
-          <div>
-            <label>Nome: </label>
-            <input type="text" name="nome" id="nome" />
-          </div>
-          <div>
-            <label>Sobrenome: </label>
-            <input type="text" name="sobrenome" id="spbrenome" />
-          </div>
-          <div>
-            <label>Email: </label>
-            <input type="email" name="email" id="email" />
-          </div>
-          <div>
-            <label for="">Já tem experiência: </label>
-            <label for="">
-              <input type="radio" name="nao" id="nao" checked />não
+
+      <div id="form-map">
+        <form>
+          <fieldset>
+              <legend>Dados Pessoais</legend>
+      
+              <label for="nome">Nome:</label>
+              <input type="text" id="nome" name="nome" required>
+      
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" name="email" required>
+      
+              <label for="telefone">Telefone:</label>
+              <input type="tel" id="telefone" name="telefone">
+          </fieldset>
+      
+          <fieldset>
+              <legend>Endereço</legend>
+      
+              <label for="endereco">Endereço:</label>
+              <input type="text" id="endereco" name="endereco">
+      
+              <label for="cidade">Cidade:</label>
+              <input type="text" id="cidade" name="cidade">
+      
+              <label for="estado">Estado:</label>
+              <select id="estado" name="estado">
+                <option value="">Selecione...</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+              </select>
+          </fieldset>
+      
+          <fieldset>
+              <legend>Detalhes do Contrato</legend>
+      
+              <label for="tipo-instalacao">Tipo de Instalação:</label>
+              <select id="tipo-instalacao" name="tipo-instalacao">
+                  <option value="">Selecione...</option>
+                  <option value="residencial">Residencial</option>
+                  <option value="comercial">Comercial</option>
+                  <option value="industrial">Industrial</option>
+              </select>
+      
+              <label for="area-painel">Área do Painel (m²):</label>
+              <input type="number" id="area-painel" name="area-painel">
+      
+              <label>Selecione os serviços adicionais:</label>
+              <label for="limpeza">
+              <input type="checkbox" id="limpeza" name="servicos-adicionais" value="limpeza"> Limpeza dos Painéis
             </label>
-            <label for=""> <input type="radio" name="sim" id="im" />sim </label>
-          </div>
+            <label for="manutencao">
+              <input type="checkbox" id="manutencao" name="servicos-adicionais" value="manutencao"> Manutenção Regular
+            </label>
+          </fieldset>
+      
+          <fieldset>
+              <legend>Termos e Condições</legend>
+      
+              <p>Por favor, leia atentamente os termos e condições do contrato:</p>
+              <textarea id="termos" name="termos" rows="6" readonly>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper libero quis nisl ultrices, nec suscipit orci molestie. Phasellus vitae massa sapien. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, odio debitis itaque sint in voluptate incidunt saepe quibusdam, praesentium aliquam sunt. Tempora sint, voluptas odio ut doloribus esse. Hic, provident.</textarea>
+      
+              <input type="checkbox" id="aceito-termos" name="aceito-termos" required>
+              <label for="aceito-termos">Eu li e aceito os termos e condições</label>
+          </fieldset>
+      
+          <input type="submit" value="Enviar Contrato">
+        </form>
+        <section>
           <div>
-            <label>Envie seu Currículo: </label>
-            <input type="file" />
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.3751580533826!2d-34.87365837407947!3d-8.063161680571886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18a48ed72541%3A0xf5636ba795e00cd4!2sPra%C3%A7a%20Bar%C3%A3o%20do%20Rio%20Branco%20-%20Recife%2C%20PE%2C%2050020-360!5e0!3m2!1spt-BR!2sbr!4v1710820254463!5m2!1spt-BR!2sbr"
+              width="600"
+              height="850"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
-          <div>
-            <label>Telefone: </label>
-            <input
-              type="tel"
-              name="telefone"
-              id="telefone"
-              inputmode="numeric"
-            />
-          </div>
-        </fieldset>
-        <button type="submit">Enviar</button>
-      </form>
-      <br />
-      <section>
-        <div>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.3751580533826!2d-34.87365837407947!3d-8.063161680571886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18a48ed72541%3A0xf5636ba795e00cd4!2sPra%C3%A7a%20Bar%C3%A3o%20do%20Rio%20Branco%20-%20Recife%2C%20PE%2C%2050020-360!5e0!3m2!1spt-BR!2sbr!4v1710820254463!5m2!1spt-BR!2sbr"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
-        <div>
-          <p>Endereço: Rua taltaltal, 999 - Brasil</p>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
     <footer class="py-5">
       <div class="row">
