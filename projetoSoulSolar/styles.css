@@ -1,6 +1,9 @@
 header {
   background-image: linear-gradient(to right, #73bb3f, #347bba);
 }
+#navbarSupportedContent{
+  flex-grow: 0;
+}
 
 #logo{
   margin-right: 20px;

@@ -4,11 +4,6 @@ main{
   align-items: center;
   gap: 50px;
 }
-img{
-  width:100vw;
-  height: 20vw;
-  margin-bottom: 1.5rem;
-}
 
 label {
   display: block;
