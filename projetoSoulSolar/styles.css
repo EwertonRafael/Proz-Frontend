@@ -1,3 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+
+html, body {
+  overflow-x: hidden;
+}
+img{
+  border-radius: 5px;
+}
+h1{
+  font-family: 'Jersey 25';
+  font-weight: 400;
+  color: hsla(193, 60%, 47%, 0.669);
+  text-transform: uppercase;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  padding: 2px;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4ef805;
+}
+p {
+	font-size: 1.2rem;
+	line-height: 1.8;
+	text-align: justify;
+}
 header {
   background-image: linear-gradient(to right, #73bb3f, #347bba);
 }
@@ -9,13 +41,14 @@ header {
   margin-right: 20px;
   border-radius: 50% 20%;
   max-width: 80px;
+  
 }
 
 main {
   background-image: linear-gradient(to right, #4f823053, #306ba771);
 }
 footer {
-  background-image: linear-gradient(to right, #73bb3f, #347bba);
+  background-image: linear-gradient(to right, #73bb3fac, #347bba9e);
   text-align: center;
 }
 footer .list-icon  {

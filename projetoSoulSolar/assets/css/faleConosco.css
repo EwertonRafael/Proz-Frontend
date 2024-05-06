@@ -71,3 +71,10 @@ input[type="submit"]:hover {
   color: green;
   font-size: 14px;
 }
+=======
+#form-map{
+  display: flex;
+  margin:  5px ;
+  align-items: center;
+  gap: 60px;
+}
