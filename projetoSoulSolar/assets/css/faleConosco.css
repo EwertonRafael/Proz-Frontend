@@ -32,7 +32,8 @@ input[type="submit"]:hover {
 
 #form-map{
   display: flex;
-  margin:  50px auto;
+  margin:  5px ;
   align-items: center;
   gap: 60px;
 }
+
