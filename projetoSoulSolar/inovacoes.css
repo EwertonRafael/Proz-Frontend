@@ -4,23 +4,18 @@ main{
     flex-direction: column;
 
 }
- h1{
-    color: rgb(80, 252, 183);
-    text-align: center;
-    font-family: cursive;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-    font-size: 95px; /* Alterando o tamanho da fonte para 36 pixels */
-}
+
+
 #imagem1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin: 20px auto;
-  width: 80%;
+  width: 100%;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5); /* Adicionando sombreamento */
   transition: transform 0.5s ease; /* Adicionando transição para a propriedade transform */
   transform-style: preserve-3d; /* Preservando a transformação em 3D */
-  border: 2px solid #638f81; /* Adicionando uma borda ao redor da imagem */
+  
   display: block;
  
 }
@@ -40,14 +35,7 @@ main{
   text-align: center;
 }
 
-.container1 {
-  width: 1200px;
-  background-color: #f0f0f0;
-  border: 2px solid #73becb;
-  padding: 20px;
-  margin: 20px;
-  float: left;
-}
+
 .container2 {
   width: 1200px; /* Reduzindo a largura para tornar o círculo mais evidente */
   background-color: #f0f0f0;
