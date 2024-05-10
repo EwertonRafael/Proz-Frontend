@@ -5,11 +5,16 @@ p {
 }
 
 #folder_sobre {
-	max-width: 100%;
-	height: 100%;
+	max-width: 90%;
+	height: auto;
 	display: flex;
     padding-left: 180px;
    
+}
+.sobre_folder img {
+	width: 100%;
+	height: 50%;
+	
 }
 .sobre_folder{
     background-color: #DCB142;
