@@ -5,7 +5,9 @@ nome.addEventListener('input', () => {
   if (nome.value.length < 3) {
     mensagemNome.textContent = "Nome deve ter no mínimo 3 caracteres";
     mensagemNome.classList.add("mensagem-erro");
+    nome.style.borderColor = "red";
   } else {
+    nome.style.border = "";
     mensagemNome.textContent = "";
     mensagemNome.classList.remove("mensagem-erro");
   }
@@ -18,10 +20,13 @@ email.addEventListener ('input', () =>{
   if (email.value.trim() === "") {
     mensagemEmail.textContent = "Email é obrigatório";
     mensagemEmail.classList.add("mensagem-erro")
+    email.style.borderColor = "red";
   }else if (!email.value.includes("@") || !email.value.endsWith(".com")) {
     mensagemEmail.textContent = "Email inválido";
     mensagemEmail.classList.add("mensagem-erro");
+    email.style.borderColor = "red";
   } else {
+    email.style.borderColor = "";
     mensagemEmail.textContent = "";
     mensagemEmail.classList.remove("mensagem-erro");
   }
