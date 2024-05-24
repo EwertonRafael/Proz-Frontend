@@ -25,14 +25,14 @@ main{
   font-weight: bold;
   font-style: italic; /* Adicionando estilo de letra itálico */
   font-family: cursive;
-  text-align: center;
+  text-align: justify;
 }
 #paragrafo2 {
   font-size: 20px;
   font-weight: bold;
   font-style: italic; /* Adicionando estilo de letra itálico */
   font-family: cursive;
-  text-align: center;
+  text-align: justify;
 }
 
 
@@ -76,73 +76,24 @@ main{
   margin-left: auto; /* Move a imagem para o lado direito */
 
 }
-.container3 p {
-  flex: 1; /* Ocupa o restante do espaço disponível */
-}
-.container2 a.button {
-  margin-top: 10px; /* Margem superior para separar o botão do texto */
-  align-self: flex-start; /* Alinha o botão à esquerda */
-  padding: 10px 20px; /* Adiciona preenchimento ao botão */
-  background-color: #b7d194; /* Cor de fundo do botão */
-  color: #fff; /* Cor do texto do botão */
-  text-decoration: none; /* Remove o sublinhado padrão dos links */
-  border: none; /* Remove a borda do botão */
-  border-radius: 5px; /* Adiciona borda arredondada ao botão */
-  align-self:flex-end; /* Alinha o botão à esquerda */
-}
-.container3 a.button {
-  margin-top: 10px; /* Margem superior para separar o botão do texto */
-  align-self: flex-start; /* Alinha o botão à esquerda */
-  padding: 10px 20px; /* Adiciona preenchimento ao botão */
-  background-color: #b7d194; /* Cor de fundo do botão */
-  color: #fff; /* Cor do texto do botão */
-  text-decoration: none; /* Remove o sublinhado padrão dos links */
-  border: none; /* Remove a borda do botão */
-  border-radius: 5px; /* Adiciona borda arredondada ao botão */
-  align-self:flex-end; /* Alinha o botão à esquerda */
-}
-.video-container {
-  margin-top: 20px; /* Adicione margem superior para separar o vídeo do conteúdo acima */
-  margin-bottom: 20px; /* Adicione margem inferior para separar o vídeo do rodapé */
-  display: flex; /* Usar flexbox para centralizar o vídeo */
-  justify-content: center; /* Centralizar horizontalmente */
-  position: fixed; /* Posiciona o vídeo de forma fixa */
-  top: 20px; /* Define a distância do topo */
-  right: 20px; /* Define a distância da direita */
-}
-.video-container video {
-  border-radius: 10px; /* Adiciona bordas redondas ao vídeo */
-}
-.video-menu {
-  position: relative; /* Define a posição absoluta */
-  top: calc(100% - 40px); /* Define a distância do topo (100% da altura da página - 40px) */
-  left: 596px; /* Define a distância da direita */
-  float: right; /* Flutua para a direita */
-  margin-left: 10px; /* Adiciona uma margem à esquerda para separar do rodapé */
-  margin-bottom: 10px; /* Adiciona uma margem inferior para separar do rodapé */
-}
 
 .video-container {
-  display: none; /* Oculta o vídeo por padrão */
-}
-
-.video-container.show {
-  display: block; /* Mostra o vídeo quando a classe show é aplicada */
-}
-#toggle-video {
-  font-size: 1.5em; /* Ajusta o tamanho do botão */
-  padding: 10px 10px; /* Adiciona espaçamento interno ao botão */
   background-image: linear-gradient(to right, #73bb3f, #347bba);
-  border: none; /* Remove a borda */
-  border-radius: 5px; /* Adiciona bordas arredondadas */
-  cursor: pointer; /* Adiciona cursor ao botão */
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 2px;
+  display: none;
 }
 
+.video-link {
+  color: #0d6efd;
+  cursor: pointer;
+}
 
+.video-link:hover {
+  text-decoration: underline;
+}
 
   
   
-  
-  
-
   
